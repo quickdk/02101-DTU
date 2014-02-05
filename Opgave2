@@ -1,0 +1,12 @@
+/*This code has to object to write the number
+ * 42 in the Console window.
+ */
+public class Opgave2 {
+
+	public static void main(String[] args) {
+		double x = 7.2; //The variable has to be of the type double.
+		System.out.print(1+3+x+x+x+x+x+5/4*2); //Outputs the calculated number.
+
+	}
+
+}
