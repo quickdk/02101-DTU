@@ -1,0 +1,19 @@
+/*This code outputs a description on how to
+ * use the backslash character in Java programming.
+ */
+public class Opgave1 {
+
+	public static void main(String[] args) {
+		how(); //Calls our method.
+		System.out.println("Remember:"); //Directly outputs the text.
+		how(); //Calls out method again.
+
+	}
+	//This has been made a method, because it's used twice:
+	public static void how(){
+		System.out.println("Use \"\\\\\" to obtain a 'backslash' character."); 
+		/* The extra use of backslashes is necessary to display the '"' and the two '\'
+		 */
+	}
+
+}
