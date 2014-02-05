@@ -1,0 +1,18 @@
+/*This code generates a little box made of
+ * pluses and minuses in the Console window 
+ */
+public class Opgave3 {
+	public static final int LINES = 3; //Defines height and with of the box.
+
+	public static void main(String[] args) {
+		for (int i = 1; i <= LINES ; i++) { //Outputs the value of "LINES" in number of lines.
+			for (int j = 1; j <= LINES; j++) { //Outputs one line of value of "LINES" length.
+			System.out.print("+-");
+			}
+			System.out.println("+"); //Changes the line and ends every line with '+'.
+			
+		}
+
+	}
+
+}
